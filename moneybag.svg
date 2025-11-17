@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="600" height="600">
+
+  <!-- Bag body (drawn first, so money appears above it) -->
+  <g fill="#eecf9a" stroke="black" stroke-width="4" stroke-linejoin="round">
+    <path d="
+      M60 150
+      Q40 110 80 90
+      Q70 70 80 55
+      Q90 40 100 40
+      Q110 40 120 55
+      Q130 70 120 90
+      Q160 110 140 150
+      Z"/>
+  </g>
+
+  <!-- Tie -->
+  <g fill="#c89b5a" stroke="black" stroke-width="4" stroke-linejoin="round">
+    <rect x="75" y="70" width="50" height="12" rx="3"/>
+  </g>
+
+  <!-- MONEY ON TOP -->
+  <g stroke="black" stroke-width="4" stroke-linejoin="round">
+    <!-- Cash -->
+    <rect x="82" y="25" width="36" height="18" fill="#6bcf7a" rx="2"/>
+    <rect x="74" y="35" width="36" height="18" fill="#56b868" rx="2"/>
+    <rect x="100" y="35" width="36" height="18" fill="#7bd98a" rx="2"/>
+
+    <!-- Coins -->
+    <circle cx="70" cy="48" r="8" fill="#f2c94c"/>
+    <circle cx="138" cy="50" r="8" fill="#f2c94c"/>
+  </g>
+
+  <!-- Dollar sign -->
+  <text x="100" y="125"
+        text-anchor="middle"
+        font-size="50"
+        font-family="sans-serif"
+        font-weight="700"
+        fill="#2b6b2f"
+        stroke="black"
+        stroke-width="3">
+    $
+  </text>
+
+  <!-- FIST near right coin, slightly higher -->
+  <circle cx="150" cy="79" r="30" fill="#f4d7b5" stroke="black" stroke-width="4"/>
+
+</svg>
+

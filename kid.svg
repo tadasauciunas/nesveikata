@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 200 200"
+     width="500" height="500"
+     aria-label="Teen looking right with big cap, corrected brim">
+
+  <!-- HEAD -->
+  <path d="
+    M70 150
+    Q55 120 70 95
+    Q90 70 120 82
+    Q145 92 145 120
+    Q145 148 120 162
+    Q95 172 70 150
+    Z"
+    fill="#f4d7b5" stroke="#000" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- BIG CAP -->
+  <g stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- Cap crown -->
+    <path d="
+      M72 95
+      Q92 60 142 88
+      Q118 95 72 108
+      Z"
+      fill="#7bb7ff"/>
+
+    <!-- Brim – now straight, horizontal, pointing forward -->
+    <path d="
+      M142 88
+      L175 88
+      Q178 92 175 96
+      L142 96
+      Z"
+      fill="#7bb7ff"/>
+  </g>
+
+  <!-- Eye -->
+  <circle cx="118" cy="120" r="6" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M115 140 Q130 140 140 136"
+        stroke="#000" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <rect x="65" y="155" width="80" height="38" rx="10"
+        fill="#7bb7ff" stroke="#000" stroke-width="4"/>
+</svg>
+
